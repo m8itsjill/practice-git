@@ -114,3 +114,40 @@ else if gradelevel <= 16 {
  else {
     print("what")
 }
+
+func walkDog() {
+    print("Walk to the leash")
+    print("Summon Dog")
+    print("Attach leash on dog's collar")
+    print("Walk to shoes and put on")
+    print("Gather belongings and leash")
+    print("Walk to door, open the door, walk out with dog, and close the door")
+    print("Walk foward with dog")
+}
+
+walkDog ()
+
+func makeCereal() {
+    print("Walk to bowl")
+    print("Put bowl down")
+    print("Walk to Cereal Box")
+    print("Pick up the cereal box")
+    print("Open the cereal box")
+    print("Pour cereal into bowl")
+    print("Grab milk")
+    print("Pour milk into bowl")
+}
+
+makeCereal()
+
+func walkDog(numberOfDogs : Int) {
+    print("There are \(numberOfDogs) dogs in the house")
+}
+
+walkDog(numberOfDogs: 4)
+
+func hello(name : String) {
+    print("Hello, \(name)")
+}
+hello(name: "Karlie")
+
